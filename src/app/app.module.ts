@@ -9,8 +9,8 @@ import { ServicesComponent } from './pages/services/services.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { ClientsComponent } from './pages/clients/clients.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
-import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ProductsComponent,
     ClientsComponent,
     ContactsComponent,
-    HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
