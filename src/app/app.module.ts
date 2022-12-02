@@ -19,6 +19,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { CounterSectionComponent } from './components/counter-section/counter-section.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ImsComponent } from './components/ims/ims.component';
+import { FooterToeComponent } from './components/footer-toe/footer-toe.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ImsComponent } from './components/ims/ims.component';
     GalleryComponent,
     CounterSectionComponent,
     FaqComponent,
-    ImsComponent
+    ImsComponent,
+    FooterToeComponent
   ],
   imports: [
     BrowserModule,
