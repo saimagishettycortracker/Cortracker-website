@@ -11,10 +11,12 @@ import { ClientsComponent } from './pages/clients/clients.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-
+import { FooterToeComponent } from './components/footer-toe/footer-toe.component';
+import { myRoutings } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
+    myRoutings,
     AboutUsComponent,
     HomeComponent,
     ServicesComponent,
@@ -22,7 +24,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ClientsComponent,
     ContactsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    FooterToeComponent
   ],
   imports: [
     BrowserModule,

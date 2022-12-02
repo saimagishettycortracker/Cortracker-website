@@ -1,0 +1,149 @@
+.contact-top-section{
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.cor-contactus-box{
+    line-height: 80%;
+    margin-left: 105px;
+    margin-top: 80px;
+    
+}
+.cor-contactinfo-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 100px 50px 60px ;
+    background-image: url('../../../assets/images/contacts/bg-img.png');
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.cor-contactinfo-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+   
+}
+.cor-contactinfo-item>div>h1{
+    font-size: 1em; 
+    font-weight: 600;
+  
+}
+
+.contactinfo-item>div>p{
+    font-size: 1em; 
+    font-weight: 600;
+}
+.cor-contactinfo-container1{
+    line-height: 80%;
+}
+.para{
+    line-height: 10%;
+    
+}
+.cor-contacts-form-box{
+    width: 599px;
+    height: 662px;
+    
+}
+// contact-box
+.footer-toe-container{
+    text-align: center;
+    margin-top: 40px;
+	width: 100vw;
+    border-top: 1px solid #ECEDF2;
+}
+//form-box
+.contacts-div-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.form-bg-container{
+    width: 599px;
+    height: 662px;
+    margin-top: -90px;
+    border: 0.5px solid rgba(48, 46, 167, 0.46);
+    border-radius: 10px;
+    
+  
+  }
+  #form-box1{
+      height: 214px; 
+  }
+  .form-box{
+      margin:20px 0px 0px 30px;
+      width: 512px;
+      height: 58px;
+      border: 0.5px solid rgba(48, 46, 167, 0.46);
+      border-radius: 10px;
+  }
+  .form-box-heading{
+      padding: 10px;
+  }
+  .submit-box{
+      width: 227px;
+      height: 47px;
+      margin: 10px 0;
+      text-align: center;
+      border-radius: 7px;
+      border:none;
+      color:#ffffff;
+      margin: 20px 0px 0px 30px;
+  }
+ .input-box{
+    width: 400px;
+    border: none;
+    outline: none;
+ }
+ #comment-input-box{
+    height: 100px;
+    overflow-x: visible;
+ }
+ //conditions
+ @media only screen and (max-width: 600px) {
+   .res-topsection{
+     height: 140px;
+     width: 100vw;
+    }
+    .form-box{
+        width: 255px;
+        height: 30px;
+    }
+    #form-box1{
+        height: 150px;
+    }
+    .cor-contactus-box{
+        margin: auto;
+        
+    }
+    .contacts-div-flex{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .form-bg-container{
+        width: 303px;
+        height: 434px;
+        justify-content: center;
+        
+        
+    }
+    .form-box-heading{
+        padding: 2px;
+        font-size: 12px;
+    }
+    .cor-contactus-head{
+        font-size:25px;
+        text-align: center;
+    }
+    .form-div{
+        align-items: center;
+    }
+  }
+ 
