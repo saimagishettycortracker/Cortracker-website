@@ -11,6 +11,14 @@ import { ClientsComponent } from './pages/clients/clients.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
+import { Header2Component } from './components/header2/header2.component';
+import { KeyBuiltInFeaturesComponent } from './components/key-built-in-features/key-built-in-features.component';
+import { AccessYourStoreComponent } from './components/access-your-store/access-your-store.component';
+import { AboutUsHeaderComponent } from './components/about-us-header/about-us-header.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { CounterSectionComponent } from './components/counter-section/counter-section.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { ImsComponent } from './components/ims/ims.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +30,15 @@ import { HeaderComponent } from './components/header/header.component';
     ClientsComponent,
     ContactsComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    Header2Component,
+    KeyBuiltInFeaturesComponent,
+    AccessYourStoreComponent,
+    AboutUsHeaderComponent,
+    GalleryComponent,
+    CounterSectionComponent,
+    FaqComponent,
+    ImsComponent
   ],
   imports: [
     BrowserModule,

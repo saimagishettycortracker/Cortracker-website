@@ -1,0 +1,111 @@
+@media only screen and (max-width: 600px) {
+    .cor-aboutus-header {
+        margin-left: 32px;
+    }
+
+    .cor-ims {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .cor-ims-res {
+        flex-direction: column-reverse;
+    }
+
+
+}
+
+
+.cor-aboutus-header {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 88px
+}
+
+.cor-ims {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cor-ims div {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+}
+
+.cor-ims-1 {
+    margin-top: 60px;
+}
+
+.cor-ims-improve {
+    margin-right: 5px;
+}
+
+.cor-ims-improve-2 {
+    margin-left: 19px;
+    width: 612px;
+
+}
+
+.cor-1 {
+    height: 500px;
+    background-image: url("../../../assets/images/ims/Rectangle 91.png");
+    background-repeat: no-repeat;
+}
+
+.cor-img1 {
+    width: 600px;
+    height: 365px;
+    margin-top: 75px;
+    margin-left: 35px;
+}
+
+.cor-ims-display {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Product features  */
+
+.cor-2 {
+    height: 500px;
+    background-image: url("../../../assets/images/ims/Rectangle 90.png");
+    background-repeat: no-repeat;
+}
+
+.cor-img2 {
+    width: 534px;
+    height: 361px;
+    margin-top: 75px;
+    margin-left: 65px;
+}
+
+.cor-ims-prod-1 {
+    margin-top: 80px;
+}
+
+
+.cor-img3 {
+    width: 533px;
+    height: 374px;
+    margin-top: 75px;
+    margin-left: 65px;
+}
+.cor-img4 {
+    width: 478px;
+    height: 344px;
+    margin-top: 175px;
+    margin-left: 143px;
+}
+
+.cor-logo {
+    background: #F5F5F5;
+    background-image: url("../../../assets/images/ims/01_cortracker logo_Fin 3.png");
+    background-repeat: no-repeat;
+    width: 601px;
+    height: 610px;
+}

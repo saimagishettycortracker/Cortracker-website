@@ -1,0 +1,12 @@
+.cor-aboutus-header{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 88px
+}
+@media only screen and (max-width: 600px) {
+    .cor-aboutus-header{
+        margin-left: 32px;
+    }
+
+  }

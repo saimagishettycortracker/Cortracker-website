@@ -1,0 +1,81 @@
+.cor-center {
+    text-align: start;
+}
+
+.cor-access-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cor-access-1>div {
+    width: 50vw;
+    margin: 20px 0px;
+    height: 420px;
+
+}
+
+.cor-access-img {
+    margin: 20px;
+    width: 340px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.cor-access-img1 {
+    margin: 20px;
+    width: 543px;
+    height: 382px;
+    border-radius: 10px;
+}
+
+.cor-access-img2 {
+    margin: 20px;
+    width: 534px;
+    height: 402px;
+    border-radius: 10px;
+}
+
+.cor-access-3 {
+    margin: auto;
+    width: 541px;
+}
+
+
+
+.cor-access-2 {
+    background-image: url("../../../assets/images/home/Rectangle89.png");
+    background-repeat: no-repeat;
+    height: 420px;
+
+    margin-left: 48px;
+    margin-top: -78px;
+
+}
+
+
+
+.cor-access-4 {
+}
+
+.cor-access-5 {
+    background-image: url("../../../assets/images/home/Rectangle91.png");
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cor-access-1 {
+        flex-direction: column;
+    }
+    .cor-access-2{
+        margin-left: 80px;        
+    }
+    .cor-access-m{
+        flex-direction: column-reverse;
+    }
+  }

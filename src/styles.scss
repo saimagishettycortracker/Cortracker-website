@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+$allcolors: (
+    "headerbg":#FFFFFF,
+    "headerorange":#F9AB00,
+    "bodybg":#F5F5F5,
+    "footerbg": #ECEDF2,
+    "blue":#302EA7,
+    "lightblue": #1967D2,
+    "Quotes": #296073,
+    "SalesOrder":#97AFB9,
+    "PurchaseOrder": #647B84,
+    "WarehouseManagement": #6B516D,
+    "ShippingReceiving": #00AF93,
+    "Invoicing": #00A5E5,
+    "ProcessCompleted": #00C9A7,
+    "lightgrayishblue": #ECEDF2,
+    "lightnavy": #6C63FF,
+    "black": #202124,
+    "lightgray": #D7D7D7,
+    "lightgray1": #DBDBDB,
+    "lightblack": #4A4C4C,
+    "grayblack": #696969,
+    "slategray": #77838F,
+    "bluemagenta": #302EA7,
+);
+
+$headerbg	: #FFFFFF;
+$headerorange: #F9AB00;
+$bodybg: #F5F5F5;
+$ooterbg: #ECEDF2;
+$blue: #302EA7;
+$lightblue: #1967D2;
+$Quotes: #296073;
+$SalesOrder: #97AFB9;
+$PurchaseOrder: #647B84;
+$WarehouseManagement: #6B516D;
+$ShippingReceiving: #00AF93;
+$Invoicing: #00A5E5;
+$ProcessCompleted: #00C9A7;
+$lightgrayishblue: #ECEDF2;
+$lightnavy: #6C63FF;
+$black: #202124;
+$lightblue: #1967D2;
+$lightgray: #D7D7D7;
+$lightgray1: #DBDBDB;
+$lightblack: #4A4C4C;
+$grayblack: #696969;
+$slategray: #77838F;
+$blue-magenta: #302EA7;
+
+
+
+@each $var, $color in $allcolors {
+    .cor-color-#{$var} {
+        color: $color;
+    }
+
+    .cor-bg-color-#{$var} {
+        background-color: $color;
+    }
+}
+
+
+
+// font included with font-family,font-weight,font-sizes
+$alltext:(
+    "Nunito":Nunito,
+    "Nunito-Sans":Nunito Sans,
+);
+
+@each $i in 12,14,15,16,18,20,23,24,30,45{
+    @each $j in 400,600,700{
+         @each $k, $m in $alltext{
+            .cor-text-#{$i}-#{$j}-#{$k}{
+                font-family: #{$m};
+                font-weight: #{$j};
+                font-size:#{1px*$i};
+            }
+        }
+    }
+}
+.body{
+    max-width: 2000px;
+    margin: auto;
+    background: #F5F5F5;
+}
