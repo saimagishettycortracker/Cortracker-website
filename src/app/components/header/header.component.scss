@@ -1,20 +1,14 @@
 
-header {
-    width: 100vw;
-    background-color: white;
-    z-index: 10;
-    position: fixed;
-    height: 50px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
+
 
 /* JMJ SMALL Header Open */
 .cor-header-slin {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 .cor-header-slin-la,
 .cor-header-slin-lb {
@@ -37,31 +31,58 @@ header {
 
 
 .cor-header-main{
-    max-width: 1320px;
-    width:100vw;
-    margin:auto;
     margin-top: 20px;
+    
+    padding: 10px 70px 10px 45px;
+    position: sticky;
+    width:100%;
+    top:0;
+    box-sizing: border-box;
+   /* From https://css.glass */
+   backdrop-filter: blur(13px) saturate(200%);
+   -webkit-backdrop-filter: blur(13px) saturate(200%);
+   background-color: rgba(255, 255, 255, 0.16);
+
+   div{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
-    padding: 10px 70px 10px 45px;
+    max-width: 1320px;
+    width:100%;
+    margin:auto;
+   }
+
 }
 .cor-header-logo{
     max-height: 61px;
     object-fit: cover;
 }
+.cor-mob-menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .cor-header-slin{
+        display: none;
+    }
+    .cor-header-main{
+        margin-top: 0;
+    }
+}
+
 
 /*Code Required for Responsiveness*/
 /* Large devices (desktops, 992px and up)*/
-@media (max-width: 1200px) {
-    .cor-header-slin-left {
-        display: none;
+@media screen and (max-width: 1100px) {
+    .cor-header-mnin-menu-ul{
+        display: none !important;
+    }    
+    .cor-mob-menu-icon{
+        display: block;
     }
-
-    .cor-header-slin {
-        justify-content: flex-end;
+    .cor-header-main{
+        padding: 10px 30px 10px 30px;
     }
 }
 
@@ -71,6 +92,7 @@ header {
     .cor-header-slin {
         display: none;
     }
+
 }
 
 /* JMJ SMALL Header Close */
