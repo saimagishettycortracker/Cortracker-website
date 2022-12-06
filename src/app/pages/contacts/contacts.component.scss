@@ -1,26 +1,22 @@
 .cor-contact-main-bg{
-    width: 100vw;
+    width: 100%;
 }
 .contact-top-section{
-   
-    height: 274px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+    width:100%;
+    padding: 0 45px;
+    box-sizing: border-box;
 }
 .cor-contactus-box{
-    line-height: 80%;
-    margin-left: 105px;
-    margin-top: 80px;
-    
+    max-width: 1440px;
+    padding: 60px 0;
+    margin: auto;
 }
 .cor-contactinfo-box{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
-    padding: 100px 50px 60px ;
+    padding: 70px 50px 50px 0 ;
     background-image: url('../../../assets/images/01_cortracker logo_Fin.png');
     background-position: left;
     background-repeat: no-repeat;
@@ -63,17 +59,23 @@
 .footer-toe-container{
     text-align: center;
     margin-bottom:0px;
-	width: 100vw;
+	width: 100%;
     border-top: 2px solid #ECEDF2;
     margin-top: 30px;
     padding: 10px;
+    box-sizing: border-box;
 }
 //form-box
 .contacts-div-flex{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-evenly;
+
+    padding: 0 45px;
+    box-sizing: border-box;
+    width:100%;
+    max-width:1440px;
+    margin: auto;
 }
 .form-bg-container{
     width: 599px;
@@ -130,7 +132,6 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-
    }
   
    
@@ -138,7 +139,7 @@
    
    .cor-contactus-box{
     margin: 0px;
-    
+    padding: 40px 0;
     text-align: center;
         p{
             font-size: 12px;
@@ -154,11 +155,7 @@
     height: 434px;
     margin-top: -20px;
    }
-   .contacts-div-flex{
-    display: flex;
-    flex-direction: column-reverse;
-     align-items: center;
-   }
+   
    .form-box {
     width: 255px;
     height: 30px;
@@ -221,4 +218,14 @@
     font-size: 16px;
    }
    
+  }
+  @media only screen and (max-width:1100px){
+    .contacts-div-flex{
+        display: flex;
+        flex-direction: column-reverse;
+         align-items: center;
+       }
+    .form-bg-container{
+        margin-top: -20px;
+      }
   }
