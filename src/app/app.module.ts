@@ -20,6 +20,7 @@ import { CounterSectionComponent } from './components/counter-section/counter-se
 import { FaqComponent } from './components/faq/faq.component';
 import { ImsComponent } from './components/ims/ims.component';
 import { FooterToeComponent } from './components/footer-toe/footer-toe.component';
+import { StreamlineComponent } from './components/streamline/streamline.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { FooterToeComponent } from './components/footer-toe/footer-toe.component
     CounterSectionComponent,
     FaqComponent,
     ImsComponent,
-    FooterToeComponent
+    FooterToeComponent,
+    StreamlineComponent
   ],
   imports: [
     BrowserModule,
