@@ -1,7 +1,16 @@
+.cor-body{
+    width: 100vw;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
 .cor-countersection {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .cor-countersection>div {
@@ -12,6 +21,8 @@
     text-align: left;
     margin: auto;
     width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .cor-border {
