@@ -1,8 +1,10 @@
 .cor-aboutus-main{
+    width: 100%;
+    max-width: 1440px;
     margin: auto;
     display: flex;
     justify-content: center;
-    // align-items: center;
+    align-items: center;
 }
 
 .cor-gallerytone {
@@ -29,7 +31,7 @@
 .cor-gallerytone-box>.col-3>img {
     // height: 100%;
     // width: 100%;
-    object-fit: cover;
+    // object-fit: cover;
 }
 
 

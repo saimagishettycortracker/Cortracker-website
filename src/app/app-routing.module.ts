@@ -10,9 +10,10 @@ import { ProductsComponent } from './pages/products/products.component';
 const routes: Routes = [
   {path:'', component:HomeComponent},
   {path:'aboutus', component:AboutUsComponent},
-  {path:'contact', component:ContactsComponent},
-  {path:'client', component:ClientsComponent},
-  {path:'product', component:ProductsComponent}
+  c{path:'contact', component:ContactsComponent},
+  {path:'clients', component:ClientsComponent},
+  {path:'products', component:ProductsComponent}
+  
 ];
 
 @NgModule({
