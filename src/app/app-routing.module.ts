@@ -12,7 +12,7 @@ const routes: Routes = [
   {path:'aboutus', component:AboutUsComponent},
   {path:'contact', component:ContactsComponent},
   {path:'products', component:ProductsComponent},
-  {path:'clinets', component:ClientsComponent},
+  {path:'clients', component:ClientsComponent},
   
 ];
 
