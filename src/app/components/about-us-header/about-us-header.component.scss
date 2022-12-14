@@ -14,9 +14,9 @@
     margin: auto;
     // margin-left: 88px
 }
-// @media only screen and (max-width: 600px) {
-//     .cor-aboutus-header{
-//         margin-left: 32px;
-//     }
+@media only screen and (max-width: 600px) {
+    .cor-body{
+        padding-left: 45px;
+    }
 
-//   }
+  }

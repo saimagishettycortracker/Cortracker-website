@@ -36,6 +36,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .cor-body{
+        gap: 80px;
+    }
+
     .hidden {
         display: none;
     }
