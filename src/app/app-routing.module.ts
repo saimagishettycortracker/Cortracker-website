@@ -7,10 +7,6 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { ServicesComponent } from './pages/services/services.component';
-<<<<<<< Updated upstream
-import { StaffingComponent} from './pages/staffing/staffing.component';
-=======
->>>>>>> Stashed changes
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -18,14 +14,8 @@ const routes: Routes = [
   {path:'contact', component:ContactsComponent},
   {path:'products', component:ProductsComponent},
   {path:'clients', component:ClientsComponent},
-<<<<<<< Updated upstream
-  {path:'services', component:ServicesComponent},
-  {path:'staffing',component:StaffingComponent}
-
-=======
   {path:'products', component:ProductsComponent},
   {path:'services', component:ServicesComponent}
->>>>>>> Stashed changes
   
 ];
 
