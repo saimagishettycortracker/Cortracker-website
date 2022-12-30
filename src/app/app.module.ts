@@ -20,6 +20,9 @@ import { FaqComponent } from './components/faq/faq.component';
 import { ImsComponent } from './components/ims/ims.component';
 import { FooterToeComponent } from './components/footer-toe/footer-toe.component';
 import { StreamlineComponent } from './components/streamline/streamline.component';
+import { StaffingComponent } from './pages/staffing/staffing.component';
+import { StaffingComponentComponent } from './components/staffing-component/staffing-component.component';
+import { JobOfferedComponentComponent } from './components/job-offered-component/job-offered-component.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,10 @@ import { StreamlineComponent } from './components/streamline/streamline.componen
     FaqComponent,
     ImsComponent,
     FooterToeComponent,
-    StreamlineComponent
+    StreamlineComponent,
+    StaffingComponent,
+    StaffingComponentComponent,
+    JobOfferedComponentComponent
   ],
   imports: [
     BrowserModule,
