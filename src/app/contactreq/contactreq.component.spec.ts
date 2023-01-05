@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StreamlineComponent } from './streamline.component';
+import { ContactreqComponent } from './contactreq.component';
 
-describe('StreamlineComponent', () => {
-  let component: StreamlineComponent;
-  let fixture: ComponentFixture<StreamlineComponent>;
+describe('ContactreqComponent', () => {
+  let component: ContactreqComponent;
+  let fixture: ComponentFixture<ContactreqComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ StreamlineComponent ]
+      declarations: [ ContactreqComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(StreamlineComponent);
+    fixture = TestBed.createComponent(ContactreqComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -21,5 +21,3 @@ describe('StreamlineComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
-

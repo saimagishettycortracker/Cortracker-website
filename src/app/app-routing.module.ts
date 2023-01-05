@@ -18,7 +18,7 @@ const routes: Routes = [
   {path:'products', component:ProductsComponent},
   {path:'services', component:ServicesComponent},
   {path:'staffing', component:StaffingComponent},
-  
+ 
 ];
 
 @NgModule({

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./streamline.component.scss']
 })
 export class StreamlineComponent {
+  constructor(){
 
+  }
+
+  openPopup = false;
+  popup = ()=>{
+    console.log("clicked");
+      this.openPopup = true;
+   }
 }

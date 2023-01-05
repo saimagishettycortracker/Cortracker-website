@@ -6,7 +6,7 @@
             <p class="cor-text-18-400-Nunito-Sans">Increase your sales and keep track of every unit with our powerful stock
                 management, order, fulllfillment, and inventary control software.</p>
             <div class="cor-button">
-                <button class="cor-color-headerbg button1 cor-text-16-700-Nunito-Sans"><span>Request a Quote</span></button>
+                <button class="cor-color-headerbg button1 cor-text-16-700-Nunito-Sans"  (click)="popup()"><span>Request a Quote</span></button>
                 <button class="cor-color-black button2 cor-text-16-700-Nunito-Sans"><span>Request a Call Back</span></button>
             </div>
         </div>
@@ -51,4 +51,15 @@
         </div>
 
     </div>
-</div>>
+</div>
+
+<!-- <div style="position: fixed; top:0;left:0;z-index:1000; background-color: red;" *ngIf="openPopup" >
+        Popup
+</div> -->
+<div class="popup1"  *ngIf="openPopup" >
+    <app-contactreq></app-contactreq>
+    <div class="popuBackground" (click)="openPopup = false"> </div>
+</div>
+
+
+

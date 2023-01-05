@@ -90,17 +90,44 @@ a {
     display: none;
 }
 
+.drop{
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
     .cor-header-slin {
         display: none;
     }
-
+    
     .cor-header-main {
         margin-top: 0;
     }
 
     .cor-header-logo {
         padding-left: 0px;
+    }
+// ---------------------------------------------------------------drop-------
+    .drop{
+        display: block;
+        font-family: Nunito Sans;
+        height: 100vw;
+        font-weight: 600;
+        background-color:#F5F5F5;
+        color: #202124;
+        text-align: center;
+        font-size: 10px;
+        padding: 10px;
+        position: fixed; 
+        width: 100%;
+        z-index:1000;
+        margin: auto;
+        h1{
+            padding-top: 20px;
+            border-bottom: 0.1px solid #f2f3f5;
+           
+           
+        }
+        
     }
 }
 
@@ -119,6 +146,10 @@ a {
     .cor-header-main {
         padding: 10px 30px 10px 30px;
     }
+    .drop{
+        display: block;
+        text-align: center;
+    }
 }
 
 
@@ -126,6 +157,7 @@ a {
 @media (max-width: 576px) {
     .cor-header-slin {
         display: none;
+        
     }
 
 }

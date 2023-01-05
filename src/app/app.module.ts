@@ -23,6 +23,8 @@ import { StreamlineComponent } from './components/streamline/streamline.componen
 import { StaffingComponent } from './pages/staffing/staffing.component';
 import { StaffingComponentComponent } from './components/staffing-component/staffing-component.component';
 import { JobOfferedComponentComponent } from './components/job-offered-component/job-offered-component.component';
+import { ContactreqComponent } from './contactreq/contactreq.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { JobOfferedComponentComponent } from './components/job-offered-component
     StreamlineComponent,
     StaffingComponent,
     StaffingComponentComponent,
-    JobOfferedComponentComponent
+    JobOfferedComponentComponent,
+    ContactreqComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,

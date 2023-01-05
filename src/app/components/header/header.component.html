@@ -1,5 +1,5 @@
 
-    <div class='cor-header-slin'>
+    <div class='cor-header-slin' >
         <div class='cor-header-slin-la'>
             <span class="material-icons-outlined md-18">
             </span>
@@ -25,9 +25,21 @@
                 <li><a [routerLink]="['/clients']" class="header-list-a underline">Clients</a></li>
                 <li><a [routerLink]="['/contact']" class="header-list-a underline">Contact</a></li>
             </ul>
-            <img src="../../../assets/images/icons/navigation.png" width="45px" class="cor-mob-menu-icon">
+            <img src="../../../assets/images/icons/navigation.png" width="45px" class="cor-mob-menu-icon"  (click)="dropbar()" >
         </div>
     </div>
+
+    <div class="drop"  *ngIf="opendropbar" (click)="opendropbar= false">
+        <h1><a [routerLink]="['/']" class="header-list-a underline">Home</a></h1>
+        <h1><a [routerLink]="['/aboutus']" class="header-list-a underline">About Us</a></h1>
+        <h1><a [routerLink]="['/services']"class="header-list-a underline" >services</a></h1>
+        <h1><a [routerLink]="['/products']"class="header-list-a underline" >products</a></h1>
+        <h1><a [routerLink]="['/staffing']"class="header-list-a underline" >staffing</a></h1>
+        <h1><a [routerLink]="['/clients']" class="header-list-a underline">clients</a></h1>
+        <h1><a [routerLink]="['/contact']" class="header-list-a underline">contact</a></h1>
+      </div>
+
+      
     <!-- <div class="cor-header-mobile-menu cl-bgey-a" id='jhmob-mlist'>
         <div class="cor-header-mobmenu-head">
             <span>
@@ -72,3 +84,6 @@
             </div>
         </div>
     </div> -->
+
+
+   

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StreamlineComponent } from './streamline.component';
+import { DropdownComponent } from './dropdown.component';
 
-describe('StreamlineComponent', () => {
-  let component: StreamlineComponent;
-  let fixture: ComponentFixture<StreamlineComponent>;
+describe('DropdownComponent', () => {
+  let component: DropdownComponent;
+  let fixture: ComponentFixture<DropdownComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ StreamlineComponent ]
+      declarations: [ DropdownComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(StreamlineComponent);
+    fixture = TestBed.createComponent(DropdownComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -21,5 +21,3 @@ describe('StreamlineComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
-

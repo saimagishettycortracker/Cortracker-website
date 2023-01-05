@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  constructor(){
 
+  }
+
+  opendropbar = false;
+  dropbar = ()=>{
+    console.log("clicked");
+      this.opendropbar = true;
+   }
 }
