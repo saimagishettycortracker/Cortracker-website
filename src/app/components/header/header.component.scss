@@ -63,6 +63,8 @@ a {
     width: 100%;
     top: 0;
     box-sizing: border-box;
+    background-color: #FFFFFF;
+
     /* From https://css.glass */
     // backdrop-filter: blur(13px) saturate(200%);
     // -webkit-backdrop-filter: blur(13px) saturate(200%);
@@ -83,15 +85,15 @@ a {
         padding-top: 10px;
         padding-bottom: 10px;
 
-        background: linear-gradient(white,white) padding-box,
-        linear-gradient(to top,  #FAB41A ,darkblue) border-box;
-
+        background-color: #FFFF;
         border-radius: 15px;
         border: 2px solid transparent;
     }
    
 
 }
+
+
 
 .cor-header-logo {
     padding-left: 61px;
@@ -106,6 +108,7 @@ a {
 
 .drop{
     display: none;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
@@ -115,6 +118,8 @@ a {
     
     .cor-header-main {
         margin-top: 0;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.60);
+        background-color: #FFFF;
     }
 
     .cor-header-logo {
@@ -144,7 +149,17 @@ a {
         
     }
 }
+@media screen and (min-width: 1100px) {
 
+    .cor-header-main {
+        padding: 10px 50px 10px 30px;
+        div{
+            background: linear-gradient(white,white) padding-box,
+            linear-gradient(to top,  #FAB41A ,darkblue) border-box;
+        }
+    }
+
+}
 
 /*Code Required for Responsiveness*/
 /* Large devices (desktops, 992px and up)*/
@@ -162,11 +177,9 @@ a {
         position: fixed; 
         width: 100vw;
         z-index:1000;
-        position: absolute;
         h1{
             padding-top: 20px;
             border-bottom: 0.1px solid #f2f3f5;
-
         }
         
     }
@@ -414,7 +427,6 @@ a {
             position: fixed; 
             width: 100vw;
             z-index:1000;
-            position: absolute;
             h1{
                 padding-top: 20px;
                 border-bottom: 0.1px solid #f2f3f5;
@@ -425,9 +437,15 @@ a {
         .cor-header-mnin-second {
             display: none;
         }
-    
+    .cor-header-slin{
+        display: none;
+    }
         .cor-header-mnin-mobile {
             display: block;
+        }
+        .cor-header-main{
+            margin-top: 0;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.60);
         }
 
     }

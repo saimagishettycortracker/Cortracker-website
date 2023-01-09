@@ -6,7 +6,7 @@
             <div class="cor-color-black cor-text-12-400-Nunito">37085, Grand River Avenue, Suite #083, Farmington, MI, 48335,
                 USA.</div>
         </div>
-        <div class='cor-header-slin-lb cl-bylw-a cl-fwit-a cor-bg-color-'>
+        <div class='cor-header-slin-lb cl-bylw-a cl-fwit-a cor-bg-color-lightblue'>
             <span class="material-icons md-18">
                 <img src="../../../assets/images/icons/Vector.png" alt="">
             </span>
@@ -25,18 +25,19 @@
                 <li><a [routerLink]="['/clients']" class="header-list-a underline">Clients</a></li>
                 <li><a [routerLink]="['/contact']" class="header-list-a underline">Contact</a></li>
             </ul>
-            <img src="../../../assets/images/icons/navigation.png" width="45px" class="cor-mob-menu-icon"  (click)="dropbar()" >
+            <img src="../../../assets/images/icons/navigation.png" width="45px" class="cor-mob-menu-icon" *ngIf="!opendropbar" (click)="dropbar()" >
+            <img src="../../../assets/images/icons/close.png" width="45px" class="cor-mob-menu-icon"  *ngIf="opendropbar"  (click)="dropbar()" >
         </div>
     </div>
 
-    <div class="drop"  *ngIf="opendropbar" (click)="opendropbar= false">
+    <div class="drop"  *ngIf="opendropbar" (click)="closeDrop()">
         <h1><a [routerLink]="['/']" class="header-list-a underline">Home</a></h1>
         <h1><a [routerLink]="['/aboutus']" class="header-list-a underline">About Us</a></h1>
-        <h1><a [routerLink]="['/services']"class="header-list-a underline" >services</a></h1>
-        <h1><a [routerLink]="['/products']"class="header-list-a underline" >products</a></h1>
-        <h1><a [routerLink]="['/staffing']"class="header-list-a underline" >staffing</a></h1>
-        <h1><a [routerLink]="['/clients']" class="header-list-a underline">clients</a></h1>
-        <h1><a [routerLink]="['/contact']" class="header-list-a underline">contact</a></h1>
+        <h1><a [routerLink]="['/services']"class="header-list-a underline">Services</a></h1>
+        <h1><a [routerLink]="['/products']"class="header-list-a underline">Products</a></h1>
+        <h1><a [routerLink]="['/staffing']"class="header-list-a underline">Staffing</a></h1>
+        <h1><a [routerLink]="['/clients']" class="header-list-a underline">Slients</a></h1>
+        <h1><a [routerLink]="['/contact']" class="header-list-a underline">Contact</a></h1>
       </div>
 
       

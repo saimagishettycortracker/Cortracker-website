@@ -12,7 +12,10 @@ export class HeaderComponent {
 
   opendropbar = false;
   dropbar = ()=>{
-    console.log("clicked");
-      this.opendropbar = true;
+      this.opendropbar = !this.opendropbar;
+   }
+   closeDrop(){
+    this.opendropbar = false
+    window.scrollTo(0, 0);
    }
 }
