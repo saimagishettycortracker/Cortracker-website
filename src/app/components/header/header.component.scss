@@ -20,16 +20,19 @@ a {
     background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
     transition: background-size 350ms;
     --bg-h: 100%;
+    
 }
 
 a:where(:hover, :focus-visible) {
     background-size: 100% var(--bg-h);
     background-position-x: left;
+    
 }
 
 .underline {
     padding-bottom: 2px;
     --bg-h: 2px;
+    
 }
 
 a {
@@ -55,16 +58,17 @@ a {
 
 .cor-header-main {
     margin-top: 20px;
-
     padding: 10px 45px;
     position: sticky;
     width: 100%;
     top: 0;
     box-sizing: border-box;
     /* From https://css.glass */
-    backdrop-filter: blur(13px) saturate(200%);
-    -webkit-backdrop-filter: blur(13px) saturate(200%);
-    background-color: rgba(255, 255, 255, 0.16);
+    // backdrop-filter: blur(13px) saturate(200%);
+    // -webkit-backdrop-filter: blur(13px) saturate(200%);
+    // background-color: rgba(255, 255, 255, 0.16);
+    
+  
 
 
     div {
@@ -75,7 +79,17 @@ a {
         max-width: 1440px;
         width: 100%;
         margin: auto;
+        padding-right:30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        background: linear-gradient(white,white) padding-box,
+        linear-gradient(to top,  #FAB41A ,darkblue) border-box;
+
+        border-radius: 15px;
+        border: 2px solid transparent;
     }
+   
 
 }
 
@@ -135,6 +149,27 @@ a {
 /*Code Required for Responsiveness*/
 /* Large devices (desktops, 992px and up)*/
 @media screen and (max-width: 1100px) {
+    .drop{
+        display: block;
+        font-family: Nunito Sans;
+        height: 100vw;
+        font-weight: 600;
+        background-color:#F5F5F5;
+        color: #202124;
+        text-align: center;
+        font-size: 10px;
+        padding: 10px;
+        position: fixed; 
+        width: 100vw;
+        z-index:1000;
+        position: absolute;
+        h1{
+            padding-top: 20px;
+            border-bottom: 0.1px solid #f2f3f5;
+
+        }
+        
+    }
     .cor-header-mnin-menu-ul {
         display: none !important;
     }
@@ -144,7 +179,8 @@ a {
     }
 
     .cor-header-main {
-        padding: 10px 30px 10px 30px;
+        padding: 10px 50px 10px 30px;
+        
     }
     .drop{
         display: block;
@@ -343,21 +379,66 @@ a {
     align-items: center;
 }
 
+
+    .contact-top-section{
+     height: 146px;
+     font-size: 25px;
+     display: flex;
+     justify-content: center;
+     width: 100vw;
+    }
+    .cor-contactus-box{
+     margin: 0px;
+     padding: 40px 0;
+     text-align: center;
+         p{
+             font-size: 12px;
+             margin-top: 0px;
+         }
+         h1{
+             font-size: 25px;
+         }
+    }
+    
+    @media screen and  ((min-width: 601px) and (max-width:1100px)){
+        .drop{
+            display: block;
+            font-family: Nunito Sans;
+            height: 50vw;
+            font-weight: 600;
+            background-color:#F5F5F5;
+            color: #202124;
+            text-align: center;
+            font-size: 10px;
+            padding: 10px;
+            position: fixed; 
+            width: 100vw;
+            z-index:1000;
+            position: absolute;
+            h1{
+                padding-top: 20px;
+                border-bottom: 0.1px solid #f2f3f5;
+    
+            }
+            
+        }
+        .cor-header-mnin-second {
+            display: none;
+        }
+    
+        .cor-header-mnin-mobile {
+            display: block;
+        }
+
+    }
+   
+
 @media (max-width: 1200px) {
     .cor-header-mnin-second button {
         display: none;
     }
 }
 
-@media (max-width: 992px) {
-    .cor-header-mnin-second {
-        display: none;
-    }
-
-    .cor-header-mnin-mobile {
-        display: block;
-    }
-}
 
 .header-list-a {
     font-family: 'Nunito';

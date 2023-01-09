@@ -59,4 +59,61 @@ textarea{
   padding: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+  .Req{
+    font-size: 16px;
+  }
+  .form-bg-container{
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    margin: 30px;
+    margin-top: 40px;
+    left: 0;
+    width: 303px;
+    height: 434px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 10px;
+  }
+  
+  .form-box {
+       width: 255px;
+       padding:0px;
+   }
+   .form-box-heading{
+       padding: 10px;
+       margin-left: 20px;
+   }
+
+  #form-box1{
+       width: 251px;
+       height: 150px;
+  }
+  textarea{
+   resize: none;
+   width: 255px;
+   height: 100px;
+  }
+  .form-div{
+   gap: 10px;
+ }
+  .submit-box{
+   width: 80px;
+   height: 30px;
+   font-size:10px;
+   padding: 10px;
+    margin: 0px 0px 0px 20px;
+  display: flex;
+  align-self: center;
+   
+  }
+  .input-box{
+   width: 250px;
+   border-radius: 10px;
+  }
+  
+}
 

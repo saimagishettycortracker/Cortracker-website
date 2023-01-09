@@ -62,3 +62,17 @@
         border-radius: 27px;
     }
 }
+
+
+
+@media only screen and ((min-width: 601px) and (max-width:1100px) ){
+    .cor-aboutus-main{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    }

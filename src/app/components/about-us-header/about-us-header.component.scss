@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 .cor-aboutus-header{
+    width: 100%;
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -16,7 +17,7 @@
 }
 @media only screen and (max-width: 600px) {
     .cor-body{
-        padding-left: 45px;
+        // padding-left: 45px;
     }
 
   }
